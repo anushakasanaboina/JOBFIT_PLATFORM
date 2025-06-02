@@ -1,0 +1,63 @@
+AI Job Match Project — Technologies List
+1. Frontend Technologies
+HTML — structure and layout of the webpage
+
+CSS — styling, responsive design
+
+JavaScript — interactivity, form handling, API requests
+
+Bootstrap or Tailwind CSS (optional) — UI frameworks for faster styling
+
+2. Backend Technologies
+Python — programming language for backend logic and AI processing
+
+Flask (or FastAPI) — lightweight web framework for building APIs
+
+File Handling — handling uploads and file storage
+
+3. AI & Natural Language Processing (NLP)
+Text Extraction Libraries:
+
+python-docx — extract text from Word documents
+
+pdfplumber or PyMuPDF — extract text from PDF files
+
+Text Preprocessing:
+
+spaCy — tokenization, lemmatization, stopword removal, Named Entity Recognition (NER)
+
+NLTK (optional) — natural language toolkit for preprocessing
+
+Semantic Similarity & Embeddings:
+
+sentence-transformers — use BERT or similar models to compute text similarity
+
+Keyword/Skill Extraction:
+
+Custom keyword matching or spaCy NER models
+
+4. Data Processing & Algorithms
+Text normalization and cleaning
+
+Similarity scoring (cosine similarity, Jaccard index)
+
+Skill matching and gap analysis
+
+Report generation (JSON or HTML)
+
+5. Deployment & DevOps (Optional)
+Hosting Platforms: Heroku, Render, Vercel
+
+Containerization: Docker (for packaging app)
+
+Version Control: Git and GitHub
+
+6. Tools for Development
+Code Editor: VSCode, PyCharm, or similar
+
+Terminal / Command Line
+
+Python Virtual Environments: venv or conda
+
+Browser Developer Tools
+

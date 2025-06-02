@@ -1,0 +1,41 @@
+/* style.css */
+
+.upload-card {
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* style.css */
+
+body {
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* Optional: add overlay so text is easier to read */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5); /* dark overlay */
+  z-index: -1;
+}
+.project-title {
+  position: fixed;     /* stays on top even when scrolling */
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: white;       /* change to contrast with your background */
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7); /* nice shadow for readability */
+  z-index: 10;        /* make sure it's above background */
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;  /* optional: prevent text selection */
+}
+.upload-card {
+  color: #333; /* dark text */
+}
+
