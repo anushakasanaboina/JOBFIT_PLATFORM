@@ -1,0 +1,4 @@
+Job Title: Data Analyst
+
+Looking for a data analyst with expertise in Python, Pandas, and SQL.
+Strong communication skills and data visualization experience are preferred.

@@ -1,0 +1,14 @@
+Job Title: Software Developer
+
+We are looking for a skilled Software Developer to join our team. The ideal candidate should have experience with Python, Flask, and JavaScript. Responsibilities include developing web applications, collaborating with cross-functional teams, and maintaining code quality.
+
+Requirements:
+- Proficiency in Python and Flask framework
+- Knowledge of JavaScript, HTML, and CSS
+- Experience with RESTful APIs
+- Strong problem-solving skills
+- Good communication and teamwork abilities
+
+Preferred:
+- Experience with SQL databases
+- Familiarity with Docker and Git
