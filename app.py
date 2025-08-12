@@ -6,11 +6,11 @@ from PyPDF2 import PdfReader
 
 app = Flask(__name__)
 
-# ✅ Folder to save uploaded files
+# Folder to save uploaded files
 UPLOAD_FOLDER = "upload"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# ✅ Technology keywords with variants
+# Technology keywords with variants
 TECH_KEYWORDS = {
     'python': ['python'],
     'java': ['java'],
@@ -31,7 +31,7 @@ TECH_KEYWORDS = {
     'docker': ['docker']
 }
 
-# ✅ Extraction functions
+# Extraction functions
 def extract_text_from_docx(path):
     return docx2txt.process(path)
 
@@ -57,7 +57,7 @@ def extract_text(path):
     else:
         return ""
 
-# ✅ Improved Matching Logic
+# Improved Matching Logic
 def match_technologies(resume_text, job_text):
     resume_text = resume_text.lower()
     job_text = job_text.lower()
@@ -117,4 +117,5 @@ def home():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
